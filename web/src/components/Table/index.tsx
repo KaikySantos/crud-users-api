@@ -1,9 +1,15 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import './style.css';
 import ImgEdit from '../../assets/images/editar.png';
 import ImgDelete from '../../assets/images/deletar.png';
+import api from '../../services/api';
 
 function Table() {
+
+    api.get('/users').then((response) => {
+        console.log(response.data);
+    });
+
     return(
         <div className="table-container">
             <div className="scroll">
