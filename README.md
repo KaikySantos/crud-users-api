@@ -4,7 +4,7 @@
 # Clone the Repository
 $ git clone https://github.com/KaikySantos/crud-users-api.git
 # Go to folder
-$ cd proffy
+$ cd crud-users-api
 ```
 ### 📦 Run API
 
