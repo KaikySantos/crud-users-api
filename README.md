@@ -1,41 +1,41 @@
-# :computer: Instação
+# :computer: How work ?
 
 ```bash
-# Clone o repositório:
+# Clone this repository
 $ git clone https://github.com/KaikySantos/crud-users-api.git
-# Entre na pasta criada:
+# Access the project folder
 $ cd crud-users-api
 ```
 ### 📦 Rode a API
 
 ```bash
-# Instale as dependências
+# Install the dependencies
 $ yarn install
 
-# Inicie a API
+# Run the application
 $ yarn start
 ```
 
 ```bash
-# Recomendo que instale o Insomnia!
+# I recommend installing insomnia:
 https://insomnia.rest/download/
 ```
 
-## 🚀 Funcionalidades:
+## 🚀 Functionalities:
 ### CRUD (CREATE, READ, UPDATE, DELETE)
 ### Read:
 
 <table>
     <thead>
-        <th>MÉTODO</th>
-        <th>CAMINHO</th>
-        <th>DESCRIÇÃO</th>
+        <th>HTTP</th>
+        <th>PATH</th>
+        <th>DESCRIPTION</th>
     </thead>
     <tbody>
         <tr>
             <td>GET</td>
             <td>/users</td>
-            <td>Lista todos os usuários cadastrados.</td>
+            <td>List all registered users.</td>
         </tr>
     </tbody>
 </table>
@@ -44,20 +44,20 @@ https://insomnia.rest/download/
 
 <table>
     <thead>
-        <th>MÉTODO</th>
-        <th>CAMINHO</th>
-        <th>DESCRIÇÃO</th>
+        <th>HTTP</th>
+        <th>PATH</th>
+        <th>DESCRIPTION</th>
     </thead>
     <tbody>
         <tr>
             <td>POST</td>
             <td>/users</td>
-            <td>Registra novo usuário.</td>
+            <td>Register new user.</td>
         </tr>
     </tbody>
 </table>
 
-#### <b>Observação:</b> <i>É necessário enviar um JSON com essa estrutura:</i>
+#### <b>Observation:</b> <i>It is necessary to send a JSON with this structure:</i>
 
 ```
 {
@@ -71,20 +71,20 @@ https://insomnia.rest/download/
 
 <table>
     <thead>
-        <th>MÉTODO</th>
-        <th>CAMINHO</th>
-        <th>DESCRIÇÃO</th>
+        <th>HTTP</th>
+        <th>PATH</th>
+        <th>DESCRIPTION</th>
     </thead>
     <tbody>
         <tr>
             <td>PUT</td>
             <td>/users/{user_id}</td>
-            <td>Edita um usuário já cadastrado.</td>
+            <td>Edit an already registered user.</td>
         </tr>
     </tbody>
 </table>
 
-#### <b>Observação:</b> <i>É necessário enviar um JSON com essa estrutura:</i>
+#### <b>Observation:</b> <i>It is necessary to send a JSON with this structure:</i>
 
 ```
 {
@@ -98,15 +98,15 @@ https://insomnia.rest/download/
 
 <table>
     <thead>
-        <th>MÉTODO</th>
-        <th>CAMINHO</th>
-        <th>DESCRIÇÃO</th>
+        <th>HTTP</th>
+        <th>PATH</th>
+        <th>DESCRIPTION</th>
     </thead>
     <tbody>
         <tr>
             <td>PUT</td>
             <td>/users/{user_id}</td>
-            <td>Deleta um usuário específico.</td>
+            <td>Deletes a specific user.</td>
         </tr>
     </tbody>
 </table>
